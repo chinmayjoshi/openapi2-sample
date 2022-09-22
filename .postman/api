@@ -1,0 +1,16 @@
+id = e9d3e703-c503-4a53-8e25-2431db64d728
+
+[relations]
+
+[relations.collections]
+rootDirectory = postman/collections
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = postman/schemas
+files[] = {"path":"index.yaml","metaData":{}}
+
+[relations.apiDefinition.metaData]
+type = openapi:2
+rootFiles[] = index.yaml
